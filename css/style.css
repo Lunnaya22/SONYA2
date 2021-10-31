@@ -23,3 +23,19 @@ a {
     height: 100%;
     width: 100%;
 }
+.btn-primary {
+    color: #330303;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 40px;
+    border-radius: 50px;
+    min-width: 10px;
+    letter-spacing: .050em;
+    text-decoration: none;
+    transition: all .3s;
+    background-color: white;
+    line-height: 1.7;
+    position: relative;
+}
