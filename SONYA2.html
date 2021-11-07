@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>SONYA2</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
-    <link href="js/js.js">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap-grid.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!--
     <div class="hamburger-menu">
         <input id="menu__switch" type="checkbox" />
@@ -25,113 +30,132 @@
 
 -->
     <div id="main">
-        <header class="header" id="header">
-            <div class="header__logo">
-                <img class="logo" src="img/logo.png" alt="#">
-            </div>
-            <div class="header__nav">
-                <ul class="header__menu" id="header-menu">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">MENU</a></li>
-                    <li><a href="#">OUR STORY</a></li>
-                    <li><a href="#">CONTACT US</a></li>
-                </ul>
-            </div>
-            <div class="header__search">
-                <input type="text" name="search">
-                <button type="submit">
-                    <img src="img/search (2).png" alt="#">
-                </button>
-            </div>
-        </header>
+      <header class="header" id="header">
+        <div class="header__logo">
+          <img class="logo" src="img/logo.png" alt="#" />
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="header__nav">
+            <ul class="header__menu" id="header-menu">
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">MENU</a></li>
+              <li><a href="#">OUR STORY</a></li>
+              <li><a href="#">CONTACT US</a></li>
+            </ul>
+          </div>
+          <div class="header__search">
+            <input type="text" name="search" />
+            <button type="submit">
+              <img
+                class="header__search-img"
+                src="img/search (2).png"
+                alt="#"
+              />
+            </button>
+          </div>
+        </div>
+      </header>
 
-        <!--Block1-->
+      <!--Block1-->
 
-        <!-- 
+      <!-- 
         1. Положить на фон картинку
         2. Сделать рваные края на каждый стиль отдельно
         3. Выровнять блок под текста (width: 50%)
         4. Застилить текста
      -->
 
-        <div class="container">
-            <div class="block1">
-                <div class="block1__bg">
-                    <div class="block1__borders border-top border-bottom">
-
-                        <div class="block1__texts-container">
-                            <div class="block1__texts">
-                                <h1 class="heading_title">IT'S TIME <br>
-                                    FOR HIKING</h1>
-                                <p class="heading_subtitle">
-                                    <strong><i>LOREMIPSUM DOLOR</i></strong>
-                                </p>
-                                <p>
-                                    <a class="btn" href="#">READ MORE</a>
-                                </p>
-                                <p class="heading_subtitle2">
-                                    <i>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                        sed do iusmod tempor incididunt ut labore et dolore magna.
-                                    </i>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container-fluid p-0">
+        <div class="block1">
+          <div class="block1__bg">
+            <div class="block1__borders border-top border-bottom">
+              <div class="block1__texts-container">
+                <div class="block1__texts">
+                  <h1 class="heading_title">
+                    IT'S TIME <br />
+                    FOR HIKING
+                  </h1>
+                  <p class="heading_subtitle">
+                    <strong><i>LOREMIPSUM DOLOR</i></strong>
+                  </p>
+                  <p>
+                    <a class="btn" href="#">READ MORE</a>
+                  </p>
+                  <p class="heading_subtitle2">
+                    <i>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do iusmod tempor incididunt ut labore et dolore magna.
+                    </i>
+                  </p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- block 2 -->
-        <div class="block2__texts-container">
-            <div class="block__texts">
-                <h2 class="heading_title heading_title1">LET'S GO</h2>
-                <p class="block2_subtitle2"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iusto veritatis mollitia a quia, illo ullam alias ea.
-                </p>
-            </div>
+      <!-- block 2 -->
+      <div class="block2__texts-container">
+        <div class="block__texts">
+          <h2 class="heading_title heading_title1">LET'S GO</h2>
+          <p class="block2_subtitle2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            veritatis mollitia a quia, illo ullam alias ea.
+          </p>
         </div>
-        <!--block3-->
-       <div class="block3">
-            <div class="block3_row">
-                <div class="block3_col">
-                    <div class="block3_col ####">
-                        <div class="block3_img block3__img1">
-                            <img src="./img/blck3_1.png">
-                        </div>
-                        <h3 class="title3">Lorem ipsum</h3>
-                        <p class="subtitle3"> Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
-                    </div>
-                </div>
-                <div class="block3_col">
-                    <div class="block3_col ####">
-                        <div class="block3_img block3__img2">
-                            <img src="./img/blck3_2.png">
-                        </div>
-                        <h3 class="title3">Lorem ipsum</h3>
-                        <p class="subtitle3"> Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
-                    </div>
-                </div>
-                <div class="block3_col">
-                    <div class="block3_col ####">
-                        <div class="block3_img block3__img3">
-                            <img src="./img/blck3_3.png">
-                        </div>
-                        <h3 class="title3">Lorem ipsum</h3>
-                        <p class="subtitle3"> Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <!--block3-->
+      <div class="block3">
+        <!-- <div class="block3_row"> -->
+        <div class="block3_col">
+          <!-- <div class="block3_col ####"> -->
+          <div class="block3_img block3__img1">
+            <img src="./img/blck3_1.png" />
+          </div>
+          <h3 class="title3">Lorem ipsum</h3>
+          <p class="subtitle3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing...
+          </p>
+          <!-- </div> -->
         </div>
+        <div class="block3_col">
+          <div class="block3_col ####">
+            <div class="block3_img block3__img2">
+              <img src="./img/blck3_2.png" />
+            </div>
+            <h3 class="title3">Lorem ipsum</h3>
+            <p class="subtitle3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing...
+            </p>
+          </div>
+        </div>
+        <div class="block3_col">
+          <div class="block3_col ####">
+            <div class="block3_img block3__img3">
+              <img src="./img/blck3_3.png" />
+            </div>
+            <h3 class="title3">Lorem ipsum</h3>
+            <p class="subtitle3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing...
+            </p>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
 
-    <!--block4-->
-    <!-- <div class="block4">
+      <!--block4-->
+      <!-- <div class="block4">
         <div class="block4_btn">
             <a class="btn btn_blck4" href="#">SHOW MORE</a>
         </div>
     </div> -->
-</div>
+    </div>
 
-</body>
-
+    <!-- scripts  -->
+    <link href="js/js.js" />
+  </body>
 </html>
+
+<!-- Devoir 13112021:
+  1. УСтавить node и npm если не установлены
+-->
